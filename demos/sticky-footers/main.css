@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  border: 5px dashed red;
+}
+
+header,
+main,
+footer {
+  border: 5px dashed red;
+  margin: 5px;
+  padding: 0.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5em 0;
+  &:first-child {
+    margin-top: 0;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+header {
+  background: silver;
+}
+
+main {
+  background: #eee;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #ccc;
+  position: sticky;
+  top: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}

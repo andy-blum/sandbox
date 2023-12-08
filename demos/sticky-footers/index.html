@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Footers</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Header Element</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Sticky Footers</h1>
+      <hr>
+      <h2>Main Element</h2>
+      <p>Set your footer element to <code>position: sticky;</code> and <code>top: 100%</code>.</p>
+      <p>The element that contains the footer (and the rest of your layout elements) needs to have a <code>min-height: 100vh;</code></p>
+      <p>Stick-ily positioned elements can't be positioned outside of their parent elements. The <code>top: 100%</code> tries to push the footer outside the brower window and the footer's parent element prevents that from happening. Setting the parent's <code>min-height</code> to <code>100vh</code> allow's the footer to sit at the bottom of the browser until content pushes it off the screen.</p>
+      <hr>
+      <button id="add-content">Add more content!</button>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <h2>Footer Element</h2>
+    </div>
+  </footer>
+</body>
+</html>
