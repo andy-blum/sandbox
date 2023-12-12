@@ -730,9 +730,9 @@
   }
 
   const endpoint = {
-    dds: (cmp) => `https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/${cmp}.min.js`,
+    dds: (cmp) => `https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/v1.38.0/${cmp}.min.js`,
     caem: (cmp) => `https://1.www.s81c.com/common/carbon/carbon-for-aem/tag/latest/${cmp}.min.js`,
-    bx: (cmp) => `https://1.www.s81c.com/common/carbon/web-components/tag/latest/${cmp}.min.js`
+    bx: (cmp) => `https://1.www.s81c.com/common/carbon/web-components/version/v1.34.0/${cmp}.min.js`
   };
 
   const observer = new MutationObserver(mutations => {
@@ -749,7 +749,6 @@
    * Checks a node for undefined elements and attempts to register them.
    */
   async function discover(root) {
-    // console.log('DISCOVER: ', root);
     const tags = [root, ...root.querySelectorAll(':not(:defined)')]
       .map(el => el.tagName.toLowerCase())
       .filter(tag => tag.includes('-')); // Possible footgun: Angular?
@@ -785,6 +784,8 @@
     const path = componentGroup === 'masthead'
       ? `https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v2/alpha/masthead.min.js`
       : endpoint[tagPrefix](componentGroup);
+
+    console.log('PATH: ', path);
 
     // Register it
     return new Promise((resolve, reject) => {
