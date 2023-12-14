@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    console.log('Start parsing.');
+    console.time('DOMContentLoaded')
+    document.addEventListener("DOMContentLoaded", (event) => {
+      console.timeEnd('DOMContentLoaded')
+    });
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duplicate Scripts (Classic)</title>
+</head>
+<body>
+  <h1>See the console.</h1>
+  <p>10 instances of:</p>
+  <pre>
+    <code>
+      &lt;script src="./script.js"&gt;
+    </code>
+  </pre>
+  <script>
+    console.log('start parse of script tags.');
+    console.time('tbt');
+  </script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script src="./script.js"></script>
+  <script>
+    console.timeEnd('tbt');
+    console.log('end parse of script tags.');
+  </script>
+  <p><em>Surprise! Content below the scripts!</em></p>
+</body>
+</html>
