@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css">
+  <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon/web-components/tag/v2/latest/grid.css">
+  <script type="module" src="https://ibmdotcom-cdn.s3.us-east.cloud-object-storage.appdomain.cloud/deploy-previews/11207/card-group.min.js"></script>
+  <script type="module" src="https://ibmdotcom-cdn.s3.us-east.cloud-object-storage.appdomain.cloud/deploy-previews/11207/card-in-card.min.js"></script>
+  <script type="module" src="https://ibmdotcom-cdn.s3.us-east.cloud-object-storage.appdomain.cloud/deploy-previews/11207/image.min.js"></script>
+  <script type="module">
+    console.log('Importing node counter in 3 seconds...');
+    setTimeout(async () => {
+      await import('../node-counter.js')
+    }, 3000);
+  </script>
+</head>
+<body>
+  <main style="padding: 1rem 0;">
+    <div class="cds--grid">
+      <div class="cds--row">
+        <div class="cds--col-sm-16 cds--col-md-6 cds--col-lg-16">
+          <c4d-video-cta-container>
+            <c4d-card-in-card href="https://example.com" cta-type="local" grid-mode="narrow" data-autoid="c4d--card-in-card" size="" color-scheme="" pictogram-placement="bottom">
+              <c4d-card-in-card-image slot="image" alt="Image alt text" default-src="3d9ceb3516be4517e20a044ca4722e6f.jpg" data-autoid="c4d--image">
+                <c4d-image-item media="(min-width: 1312px)" srcset="https://carbon-design-system.github.io/carbon-for-ibm-dotcom/v2/web-components/b458a6eeb6d19773cf97b95ea6c0071e.jpg" data-autoid="c4d-image-item"></c4d-image-item>
+                <c4d-image-item media="(min-width: 672px)" srcset="https://carbon-design-system.github.io/carbon-for-ibm-dotcom/v2/web-components/f2665750e5e977009b1ba164c53f2d4f.jpg" data-autoid="c4d-image-item"></c4d-image-item>
+                <c4d-image-item media="(min-width: 320px)" srcset="https://carbon-design-system.github.io/carbon-for-ibm-dotcom/v2/web-components/3d9ceb3516be4517e20a044ca4722e6f.jpg" data-autoid="c4d-image-item"></c4d-image-item>
+              </c4d-card-in-card-image>
+              <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow">Label</c4d-card-eyebrow>
+              <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading">Standard Bank Group prepares to embrace Africa’s AI opportunity</c4d-card-heading>
+              <c4d-card-footer data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" slot="footer" parent-href="https://example.com"></c4d-card-footer>
+            </c4d-card-in-card>
+
+            <c4d-card-group grid-mode="narrow" data-autoid="c4d--card-group" with-card-in-card="" style="--c4d--card-group--cards-in-row: 3;">
+              <c4d-card-group-item cta-type="local" href="https://example.com" data-autoid="c4d--card-group-item" size="" color-scheme="" pictogram-placement="bottom">
+                <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow" style="height: 18px;">Label</c4d-card-eyebrow>
+                <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading" style="height: 112px; margin-bottom: 64px;">The United Nations Environment Program works with IBM to reduce marine litter</c4d-card-heading>
+                <c4d-card-footer  slot="footer" data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" parent-href="https://example.com"> </c4d-card-footer>
+              </c4d-card-group-item>
+
+              <c4d-card-group-item cta-type="local" href="https://example.com" data-autoid="c4d--card-group-item" size="" color-scheme="" pictogram-placement="bottom">
+                <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow" style="height: 18px;">Label</c4d-card-eyebrow>
+                <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading" style="height: 112px; margin-bottom: 64px;">The United Nations Environment Program works with IBM to reduce marine litter</c4d-card-heading>
+                <c4d-card-footer slot="footer" data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" parent-href="https://example.com"> </c4d-card-footer>
+              </c4d-card-group-item>
+
+              <c4d-card-group-item cta-type="local" href="https://example.com" data-autoid="c4d--card-group-item" size="" color-scheme="" pictogram-placement="bottom">
+                <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow" style="height: 18px;">Label</c4d-card-eyebrow>
+                <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading" style="height: 112px; margin-bottom: 64px;">The United Nations Environment Program works with IBM to reduce marine litter</c4d-card-heading>
+                <c4d-card-footer slot="footer" data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" parent-href="https://example.com"> </c4d-card-footer>
+              </c4d-card-group-item>
+
+              <c4d-card-group-item cta-type="local" href="https://example.com" data-autoid="c4d--card-group-item" size="" color-scheme="" pictogram-placement="bottom">
+                <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow" style="height: 18px;">Label</c4d-card-eyebrow>
+                <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading" style="height: 112px; margin-bottom: 64px;">The United Nations Environment Program works with IBM to reduce marine litter</c4d-card-heading>
+                <c4d-card-footer slot="footer" data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" parent-href="https://example.com"> </c4d-card-footer>
+              </c4d-card-group-item>
+
+              <c4d-card-group-item cta-type="local" href="https://example.com" data-autoid="c4d--card-group-item" size="" color-scheme="" pictogram-placement="bottom">
+                <c4d-card-eyebrow data-autoid="c4d--card-eyebrow" slot="eyebrow" style="height: 18px;">Label</c4d-card-eyebrow>
+                <c4d-card-heading role="heading" aria-level="3" data-autoid="c4d--card-heading" slot="heading" style="height: 112px; margin-bottom: 64px;">The United Nations Environment Program works with IBM to reduce marine litter</c4d-card-heading>
+                <c4d-card-footer slot="footer" data-autoid="c4d--card-footer" cta-type="local" icon-placement="right" color-scheme="" parent-href="https://example.com"> </c4d-card-footer>
+              </c4d-card-group-item>
+            </c4d-card-group>
+          </c4d-video-cta-container>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
