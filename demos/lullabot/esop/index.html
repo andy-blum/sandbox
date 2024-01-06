@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lullabot ESOP Calculator</title>
+  <script></script>
+  <script src="./calc.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/temporal-polyfill@0.0.8/dist/global.js" defer></script>
+</head>
+<body>
+  <h1>Lullabot ESOP Calculator</h1>
+  <em>This calculator is intended to provide a general idea of your plan entry date, vesting schedule, and allocations. It is not official and may not accurately reflect your exact situation.</em>
+  <form>
+    <label for="hire-date">Hire Date: </label>
+    <input type="date" name="hire_date" id="hire-date" value="2020-01-01">
+    <br>
+    <label for="hire-rate">Hours per week (max. 40): </label>
+    <input type="number" name="hire_rate" id="hire-rate" value="40" min="0" max="40" size="4">
+  </form>
+  <hr>
+  <output>
+  </output>
+</body>
+</html>
