@@ -1,0 +1,590 @@
+{
+  "page": {
+    "category": {
+      "primaryCategory": "PC010",
+      "ibm": {
+        "ut10": "10M00",
+        "ut15": "15MSC",
+        "ut17": "17T2C",
+        "ut20": "20M3K",
+        "ut30": "30MXF",
+        "unifiedTaxonomyL10": "Miscellaneous",
+        "unifiedTaxonomyL15": "Miscellaneous LOB",
+        "unifiedTaxonomyL17": "Internal IBM Digital Services",
+        "unifiedTaxonomyL20": "Digital Marketing",
+        "unifiedTaxonomyL30": "Unified Search - EAL00110212",
+        "purpose": "MKT",
+        "bomboraTopics": [
+          {
+            "name": "Artificial Intelligence",
+            "relevance": 0.14
+          },
+          {
+            "name": "Business Collaboration",
+            "relevance": 0.16
+          },
+          {
+            "name": "Site Management",
+            "relevance": 0.1
+          },
+          {
+            "name": "Software Design",
+            "relevance": 0.1
+          },
+          {
+            "name": "Thought Leadership",
+            "relevance": 0.13
+          }
+        ],
+        "ut10Name": "Miscellaneous",
+        "ut15Name": "Miscellaneous LOB",
+        "ut17Name": "Internal IBM Digital Services",
+        "ut20Name": "Digital Marketing",
+        "ut30Name": "Unified Search - EAL00110212"
+      },
+      "iniPrimaryCategory": "null",
+      "cmContentCategory": "NO_TAGOWNER_ASSIGNED",
+      "pageCategoryName": "brand",
+      "primaryCategoryName": "brand"
+    },
+    "pageInfo": {
+      "language": "en-US",
+      "ibm": {
+        "siteID": "IBM_GlobalMarketing",
+        "country": "US",
+        "messaging": {
+          "routing": {
+            "focusArea": "Cross IBM - All",
+            "languageCode": "en",
+            "regionCode": "us"
+          },
+          "translation": {
+            "languageCode": "en",
+            "regionCode": "us"
+          }
+        },
+        "sections": 0,
+        "patterns": 0,
+        "siteId": "IBM_GlobalMarketing",
+        "industry": "",
+        "owner": "CN=Kavya Gowda/OU=India/O=IBM@IBMMail",
+        "subject": "",
+        "type": "",
+        "iniSiteId": "MarketingAEM"
+      },
+      "adobe": {},
+      "demandbase": {
+        "enabled": false
+      },
+      "google": {
+        "gtag": {
+          "enabled": true,
+          "pageURL": "https://www.ibm.com/us-en",
+          "pageReferrerURL": "None",
+          "pagePath": "/us-en/",
+          "pageTitle": "IBM - United States",
+          "trackingID": "UA-143580012-4",
+          "customDimension36": "",
+          "customDimension122": ""
+        }
+      },
+      "tealium": {
+        "collect": {
+          "enabled": true
+        }
+      },
+      "metrics": {},
+      "pageCounter": {},
+      "analytics": {
+        "category": "Uncategorized"
+      },
+      "urx": {},
+      "braze": {},
+      "jivox": {
+        "conversion": {},
+        "retargeting": {}
+      },
+      "medallia": {},
+      "reddit": {
+        "onclick": {},
+        "enabled": true
+      },
+      "segment": {
+        "enabled": true,
+        "key": "EFAiCLHQcw8IIrN9klb5xYk0NN82Iu7D"
+      },
+      "surveyGizmo": {},
+      "walkme": {},
+      "destinationURL": "https://www.ibm.com/us-en",
+      "destinationUrl": "https://www.ibm.com/us-en",
+      "destinationDomain": "ibm.com",
+      "urlID": "www.ibm.com/us-en",
+      "destinationUrlId": "www.ibm.com/us-en",
+      "clickableURLID": "https://www.ibm.com/us-en",
+      "pageUrl": "https://www.ibm.com/us-en",
+      "pageId": "www.ibm.com/us-en",
+      "isIbmMktDomain": true,
+      "isIbmExtSvcsDomain": true,
+      "description": "For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions that help businesses grow.",
+      "effectiveDate": "",
+      "expiryDate": "",
+      "keywords": "",
+      "publishDate": "",
+      "publisher": "",
+      "rights": "",
+      "source": "Carbon for ibm.com v1.51.1 DELIVERY:N/A AUTHORING:N/A",
+      "contentId": "url-55f351cc8c70c1a6a2e7c089b4c36a4702bce3798f1b987b113d5e6f8ec9fcfe",
+      "canonical": "https://www.ibm.com/",
+      "onsiteSearchTerm": "",
+      "onsiteSearchResult": "",
+      "pageName": "IBM - United States",
+      "title": "IBM - United States",
+      "thumbnailImageUrl": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/79/6e/watsonx-code-assistant-284x284-email.png/_jcr_content/renditions/cq5dam.web.3840.3840.png",
+      "productTitle": "HybridCld Top",
+      "version": "Carbon for ibm.com v1.51.1",
+      "pageID": "www.ibm.com/us-en",
+      "referringUrlId": "None",
+      "referrer": "None",
+      "referrerID": "None"
+    },
+    "attributes": {
+      "pathSegments": null
+    },
+    "services": {
+      "adobe": {
+        "target": {
+          "isReady": true,
+          "enabled": true,
+          "at_property": "2f60dcb4-3521-365c-2540-cd40553c138f",
+          "entCategory": "'\"Miscellaneous\",\"Miscellaneous:Miscellaneous LOB\",\"Miscellaneous:Miscellaneous LOB:Internal IBM Digital Services\",\"Miscellaneous:Miscellaneous LOB:Internal IBM Digital Services:Digital Marketing\",\"Miscellaneous:Miscellaneous LOB:Internal IBM Digital Services:Digital Marketing:Unified Search - EAL00110212\",\"10M00\",\"10M00:15MSC\",\"10M00:15MSC:17T2C\",\"10M00:15MSC:17T2C:20M3K\",\"10M00:15MSC:17T2C:20M3K:30MXF\"'",
+          "locale": "en-us",
+          "categoryName": "brand",
+          "categoryCode": "PC010"
+        },
+        "aam": {
+          "enabled": true,
+          "isReady": true
+        },
+        "ecid": {
+          "enabled": true,
+          "id": "44460064402818566668285267206704440511"
+        }
+      },
+      "google": {
+        "gtag": {
+          "advertisingFeatures": true,
+          "pagePath": "/us-en"
+        },
+        "enabled": true,
+        "tid": [
+          "G-FYECCCS21D"
+        ],
+        "remarketing": {
+          "enabled": true,
+          "id": [
+            "1069499076"
+          ],
+          "pagetype": [
+            "other"
+          ]
+        }
+      },
+      "trustarc": {
+        "enabled": true,
+        "privacyPolicyLink": "https://www.ibm.com/privacy",
+        "domain": "ibm.com",
+        "js": "nj",
+        "noticeType": "bb",
+        "language": "en-US"
+      },
+      "scrollTracker": {
+        "previous": {
+          "pageviewId": "2400ed1d-03e0-401e-acc4-af9efbc72e7a",
+          "url": "https://www.ibm.com/products/api-connect?lnk=flatitem",
+          "pageviewTS": 1707423149433,
+          "curMarker": 0,
+          "curPageDepth": 0,
+          "maxPageDepth": 0,
+          "mode": "active",
+          "threshold": 25,
+          "units": "percent",
+          "windowWidth": 1159,
+          "windowHeight": 1211,
+          "documentHeight": 10212,
+          "interval": 2553
+        },
+        "current": {
+          "curMarker": 0,
+          "curPageDepth": 0,
+          "maxPageDepth": 0,
+          "mode": "active",
+          "threshold": 25,
+          "units": "percent",
+          "windowWidth": 1159,
+          "windowHeight": 833,
+          "documentHeight": 5034,
+          "interval": 1258
+        }
+      },
+      "ibmCloudProfile": {
+        "enabled": true
+      },
+      "idaasUserStatus": {
+        "enabled": true
+      },
+      "upid": {
+        "enabled": true
+      },
+      "decibel": {
+        "enabled": true,
+        "pid": [
+          "14029"
+        ],
+        "triggerEventUpdateUserId": [
+          "updateUserId"
+        ],
+        "sessionId": "di-695672-A38706108E33AE877BCFAA13B9DC21B140"
+      },
+      "hotjar": {},
+      "messaging": {},
+      "linkedin": {
+        "insight": {
+          "enabled": true,
+          "pid": [
+            "9268"
+          ]
+        }
+      },
+      "twitter": {
+        "enabled": true,
+        "pid": [
+          "nuda7"
+        ]
+      },
+      "id5": {
+        "enabled": true,
+        "pid": [
+          "974"
+        ]
+      },
+      "bing": {
+        "enabled": true,
+        "tid": [
+          "146001191"
+        ]
+      },
+      "thetradedesk": {
+        "enabled": true,
+        "advId": [
+          "9c8w3tz"
+        ],
+        "pid": [
+          "4ltt5g5"
+        ]
+      }
+    },
+    "session": {
+      "engagement": {
+        "isEngaged": true,
+        "isPageEngaged": false,
+        "scoreEvent": 0,
+        "scorePage": 0,
+        "scoreVisit": 1.0791812460476249,
+        "events": 3,
+        "eventsPage": 0,
+        "pages": 3,
+        "registrations": {},
+        "engagementFactor": 0,
+        "scoreEpoch": 1707423149028
+      },
+      "scroll": {},
+      "pageviewTS": 1707424042361,
+      "uPageViewID": "a4ed10ff-6216-4358-9e9d-4e979e205151",
+      "pageviewId": "a4ed10ff-6216-4358-9e9d-4e979e205151"
+    },
+    "isDataLayerReady": true
+  },
+  "content": {
+    "drivers": {},
+    "nbo": {}
+  },
+  "context": {
+    "cookies": {
+      "_abck": "8FE4A2F06A6FE2D5D6EC310DB3BFA3FD~0~YAAQk2rcF8LjEneNAQAAaS9Zigtv+RS76dJfPykf5Tzd2GRiJZ6ctF2qkRfmIZYWXVE51VBJcQn2Tj0Hs9JL2GnWDOHSNfmbDqpXZE8p6RH3O4rIVBJR6etQWsWocytxSigvO4h+yHij+2wdevOkSKqkOJnwuoZxYPF9Da6U/UOoG97bdt6FkDCUhIBkOzFUx+XETuA25R3Ni2gDMdTZFamrXbwRZ3jB2zajsFSlIWphXu2yr2kNGKLSQgIiz5Q3lrb9Xb08fYaqfNIu48lSojW3PQOX0zkCjz+ofN9IljJ/yYbGNUv0C5z/muQzEAY/gYiEs9fOic4fKD0VmVF5VCY9tGvA+/bND4OO6Us6a3twx4ZhWxVrfYEY4F6/AUu4oh6K8L8VPl1AHjUmIhf45yF5BeHUPQ==~-1~-1~-1",
+      "BMAID": "a9a1f0d5-74a6-4d45-b9df-52034e6cd9cd",
+      "notice_close": "true",
+      "AMCVS_D10F27705ED7F5130A495C99%40AdobeOrg": "1",
+      "at_check": "true",
+      "cm-proactive-state": "{\"type\":\"proactiveInvite\",\"state\":-1}",
+      "cm-pill-events": "{\"hasCollapseAnimated\":true}",
+      "volumeControl_volumeValue": "0",
+      "urxdcq": "{\"source\":\"QTE-automateapic\",\"dcq\":{\"Q_NOTESDATA\":\" Number of employee doing API:3 | % time engrs spend developing API:50 |  hours worked per emp yearly:1920 | avg burden cost per employee:134398 | Hours saved yearly: USD 1,152 | Estimated yearly saving:USD 80,639\",\"Q_ASSET_URL\":\"https://www.ibm.com/products/api-connect/pricing\",\"Q_ASSET_NAME\":\"API Connect BVA Estiamtor\"}}",
+      "bm_sz": "170F6A2DE9E0E6263F3A44D74350B0CA~YAAQk2rcF8TjEneNAQAAaS9ZihbYL6lkV1byrKqv7NVAYVNa4Vi1aU7Qa9GCAOfeHENY48O+NFq8lvLnWy/SV+qSW09R+3LrlwyM4IwVjJiKXvGGjk4HWZDP9a/Lowggv/HC3tw66Jv3MBKvfE23zxtPGflx5Jbr/qQZfNoqn9i50rJZpXVsU08doaro9w1O+hYFCcmt9+h6iQnAjh/P9uyoWWy07dzCXQ2NPi9JKnivMfd6jZHOd0eknpkwkAiaQAI+4ILEEK85mkyauQvX2morIrNgQrgP77aEvycR8xYAzS38pK3Wjph/po2LiB49ssy4GNNYZU3V0Q==~4404534~3228983",
+      "bm_sv": "E7C37CE0E2406C4EA37A3B4874E6EA0F~YAAQmmrcF2uMZnGNAQAAKkxnihbmA/dFuswzOOo8sFeNDirzPuy7A7/SduhFtvJYjVBQcuEeWOtFtyckDKCez9p///QCZjOsGDK2nCC9uflO1ndm77FDLPKQIf1Sd4LoaP4G3boXabHYW2cP5ouUBksetzhcd10T+YhC0QQLW/72LkAfIzIHh4NT43NP8m1bsRO4MS9Fj4L6s0Hfumk/RVsiQxSQNxEP4Sr4bFh+O5GNnktYzo8GQmz4l3p0cA==~1",
+      "TAsessionID": "4a861019-3232-4ca7-a950-6c0ae35a91c0|NEW",
+      "AMCV_D10F27705ED7F5130A495C99%40AdobeOrg": "359503849|MCIDTS|19761|MCMID|44460064402818566668285267206704440511|MCOPTOUT-1707430345s|NONE|vVersion|5.0.1|MCAAMLH-1708027945|7|MCAAMB-1708027945|j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI|MCCIDH|-925525661|MCSYNCSOP|411-19768",
+      "OPTOUTMULTI": "0:0|c1:1|c2:0|c3:0",
+      "userContext": "a9a1f0d5-74a6-4d45-b9df-52034e6cd9cd|0|0|0|US|OH|0|n/a|implied|zz|n/a|n/a|n/a",
+      "notice_behavior": "implied|eu",
+      "mbox": "PC#d97b7ec0f173489cac1e3e05baa451fb.34_0#1738959152|session#2ac14fb3d34e43d0b506d138ef4b51b4#1707424952",
+      "_uetsid": "3e871220c5c111ee80a99f27213dfddc",
+      "_uetvid": "ad652880b62e11eeb29b632a7d9822a0",
+      "_rdt_uuid": "1705604785405.09a89148-539c-4a22-903a-42ec64e8c190",
+      "_ga": "GA1.2.1275670193.1705602209",
+      "_gid": "GA1.2.416239489.1707314426",
+      "_mkto_trk": "id:298-RSE-650&token:_mch-ibm.com-1705604787151-80076",
+      "umx-at": "{\"sessionId\":\"ad7eadc4-6481-429e-9b08-3d4fe3229a4a\",\"tntId\":\"5162e79e-bcb8-4027-8efc-d281b42383ab.34_0\"}",
+      "ajs_anonymous_id": "a9a1f0d5-74a6-4d45-b9df-52034e6cd9cd",
+      "utag_main": "_sn:37$_se:16$_ss:0$_st:1707425263462$v_id:018c97b1d3c4000db8620786256505054001900f00e2e$is_country_requiring_explicit_consent:false$vapi_domain:ibm.com$dc_visit:33$ses_id:1707423144235;exp-session$_pn:2;exp-session$dc_event:10;exp-session$dc_region:us-east-1;exp-session",
+      "gaVisitor": "Organic|Referral",
+      "_ga_FYECCCS21D": "GS1.1.1707423145.16.1.1707423464.0.0.0",
+      "pageviewContext": "a4ed10ff-6216-4358-9e9d-4e979e205151",
+      "utag_main__sn": "37",
+      "utag_main__se": "16",
+      "utag_main__ss": "0",
+      "utag_main__st": "1707425263462",
+      "utag_main_v_id": "018c97b1d3c4000db8620786256505054001900f00e2e",
+      "utag_main_is_country_requiring_explicit_consent": "false",
+      "utag_main_vapi_domain": "ibm.com",
+      "utag_main_dc_visit": "33",
+      "utag_main_ses_id": "1707423144235",
+      "utag_main__pn": "2",
+      "utag_main_dc_event": "10",
+      "utag_main_dc_region": "us-east-1"
+    },
+    "dest": "https://www.ibm.com/us-en",
+    "meta": {
+      "canonical": "https://www.ibm.com/",
+      "languagecode": "en",
+      "countrycode": "us",
+      "searchtitle": "IBM - United States",
+      "focusarea": "Cross IBM - All",
+      "description": "For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions that help businesses grow.",
+      "template": "full-width-layout",
+      "viewport": "width=device-width, initial-scale=1",
+      "robots": "index, follow",
+      "og:url": "https://www.ibm.com/",
+      "og:type": "website",
+      "og:title": "IBM - United States",
+      "og:description": "For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions that help businesses grow.",
+      "og:image": "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/79/6e/watsonx-code-assistant-284x284-email.png/_jcr_content/renditions/cq5dam.web.3840.3840.png",
+      "og:locale": "en-US"
+    },
+    "nav": {
+      "language": "en-US"
+    },
+    "qs": {},
+    "ref": {}
+  },
+  "product": {
+    "productInfo": {}
+  },
+  "user": {
+    "account": {},
+    "company": {
+      "fp": {},
+      "tp": {
+        "audience": "SMB",
+        "b2b": true,
+        "b2c": true,
+        "city": "Toledo",
+        "country": "US",
+        "industry": "Associations",
+        "phone": "614-728-4630",
+        "traffic": "Low",
+        "annualSales": 129867,
+        "audienceSegment": "Associations",
+        "name": "Ohio Foreign Language Association",
+        "countryName": "United States",
+        "demandbaseSid": 125614908,
+        "employeeCount": 1,
+        "employeeRange": "Small",
+        "forbes2000": false,
+        "fortune1000": false,
+        "informatioLevel": "Detailed",
+        "isInternetServiceProvider": false,
+        "marketingAlias": "Ohio Foreign Language Assoc.",
+        "primaryNaics": "610000",
+        "primarySic": "8699",
+        "stateProvinceName": "Ohio",
+        "registryCity": "Minster",
+        "registryCompanyName": "TWC-10796-MIDWEST",
+        "registryCountryName": "United States",
+        "registryCountry": "US",
+        "registryDmaCode": 542,
+        "registryLatitude": 40.39,
+        "registryLongitude": -84.38,
+        "registryStateProvince": "OH",
+        "registryPostalCode": "45865",
+        "revenueRange": "$1 - $1M",
+        "stateProvince": "OH",
+        "streetAddress": "4046 Garden Park Dr",
+        "subIndustry": "General Interest",
+        "website": "ofla-online.org",
+        "postalCode": "43613"
+      }
+    },
+    "gdpr": {
+      "country": "US",
+      "stateProvince": "OH",
+      "city": "OSGOOD",
+      "postCode": "45351",
+      "latitude": "40.3397",
+      "longitude": "-84.4945",
+      "timeZone": "EST",
+      "continent": "NA",
+      "throughput": "VHIGH",
+      "bandwith": "5000",
+      "network": "ROADRUNNER",
+      "networkType": "CABLE",
+      "ipAddress": "10.94.159.196",
+      "isCountryMemberOfEU": false,
+      "isCountryRequiringExplicitConsent": false
+    },
+    "identity": {
+      "upid": "a9a1f0d5-74a6-4d45-b9df-52034e6cd9cd"
+    },
+    "location": {
+      "country": "US",
+      "stateProvince": "OH",
+      "city": "OSGOOD",
+      "postCode": "45351",
+      "latitude": "40.3397",
+      "longitude": "-84.4945",
+      "timeZone": "EST",
+      "continent": "NA",
+      "throughput": "VHIGH",
+      "bandwith": "5000",
+      "network": "ROADRUNNER",
+      "networkType": "CABLE",
+      "ipAddress": "10.94.159.196",
+      "isCountryMemberOfEU": false,
+      "ctryState": "US-OH",
+      "ipLastOctet": "201",
+      "timeZoneOffsetHrs": "-0500"
+    },
+    "privacy": {
+      "isExpressedConsentRequired": false,
+      "noticeBehavior": "implied",
+      "noticeChoice": null,
+      "usPrivacy": "1---",
+      "globalPrivacyControl": false,
+      "gpcApplies": false
+    },
+    "profile": {
+      "dw": {},
+      "ex": {},
+      "fp": {},
+      "ng": {},
+      "tp": {
+        "country": "US",
+        "stateProvince": "OH",
+        "language": "en-US",
+        "currency": "USD"
+      },
+      "auid": "a9a1f0d5-74a6-4d45-b9df-52034e6cd9cd",
+      "topics": [
+        {
+          "name": "API management",
+          "score": 1.9979214078518985,
+          "occurrences": 1,
+          "events": 1,
+          "firstOccurrence": 1707423149499,
+          "lastOccurrence": 1707423149499
+        },
+        {
+          "name": "Application integration",
+          "score": 1.9600457411347907,
+          "occurrences": 1,
+          "events": 1,
+          "firstOccurrence": 1707423149499,
+          "lastOccurrence": 1707423149499
+        },
+        {
+          "name": "Container orchestration",
+          "score": 1.9600457411347907,
+          "occurrences": 1,
+          "events": 1,
+          "firstOccurrence": 1707423149499,
+          "lastOccurrence": 1707423149499
+        },
+        {
+          "name": "Software as a service",
+          "score": 1.9600457411347907,
+          "occurrences": 1,
+          "events": 1,
+          "firstOccurrence": 1707423149499,
+          "lastOccurrence": 1707423149499
+        },
+        {
+          "name": "iPaaS",
+          "score": 1.9600457411347907,
+          "occurrences": 1,
+          "events": 1,
+          "firstOccurrence": 1707423149499,
+          "lastOccurrence": 1707423149499
+        }
+      ],
+      "interestTopics": [
+        "API management"
+      ],
+      "firstVisit": "2024-01-18",
+      "lastVisit": "2024-02-08"
+    },
+    "segment": {
+      "31": true,
+      "17950": true,
+      "18192": true,
+      "34233": true,
+      "isIBMer": 0,
+      "isRedHatter": 0,
+      "isAuthenticated": false,
+      "isCloudLoggedOn": false,
+      "visitorCategory": "0"
+    },
+    "userInfo": {
+      "registry_country_code": "US",
+      "registry_state_code": "OH",
+      "annual_sales": 129867,
+      "audience": "SMB",
+      "audience_segment": "Associations",
+      "b2b": true,
+      "b2c": true,
+      "city": "Toledo",
+      "company_name": "Ohio Foreign Language Association",
+      "country": "US",
+      "country_name": "United States",
+      "demandbase_sid": 125614908,
+      "employee_count": 1,
+      "employee_range": "Small",
+      "forbes_2000": false,
+      "fortune_1000": false,
+      "industry": "Associations",
+      "information_level": "Detailed",
+      "isp": false,
+      "marketing_alias": "Ohio Foreign Language Assoc.",
+      "phone": "614-728-4630",
+      "primary_naics": "610000",
+      "primary_sic": "8699",
+      "region_name": "Ohio",
+      "registry_city": "Minster",
+      "registry_company_name": "TWC-10796-MIDWEST",
+      "registry_country": "United States",
+      "registry_dma_code": 542,
+      "registry_latitude": 40.39,
+      "registry_longitude": -84.38,
+      "registry_state": "OH",
+      "registry_zip_code": "45865",
+      "revenue_range": "$1 - $1M",
+      "state": "OH",
+      "street_address": "4046 Garden Park Dr",
+      "sub_industry": "General Interest",
+      "traffic": "Low",
+      "web_site": "ofla-online.org",
+      "zip": "43613"
+    }
+  },
+  "pageInstanceID": "prod",
+  "pageInstanceId": "prod",
+  "isDataLayerReady": true
+}

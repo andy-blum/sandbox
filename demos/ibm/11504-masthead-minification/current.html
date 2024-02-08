@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css" />
+  <script type="module" src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/2.0.0.alpha.7277253913/masthead.min.js"></script>
+  <script src="./count.js"></script>
+  <script>
+    (async () => {
+      await customElements.whenDefined('dds-masthead-l1');
+      const ddo = await fetch('./ddo.json').then(r => r.json());
+      const l1Data = await fetch('./l1-data.json').then(r => r.json());
+      window.digitalData = ddo;
+      document.querySelector('dds-masthead-container').l1Data = l1Data;
+      setTimeout(runCount, 100)
+    })();
+  </script>
+</head>
+<body>
+  <dds-masthead-container></dds-masthead-container>
+  <br>
+  <h1>Latest Version (2.0.0.alpha.7277253913)</h1>
+</body>
+</html>

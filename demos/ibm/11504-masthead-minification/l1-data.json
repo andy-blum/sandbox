@@ -1,0 +1,123 @@
+{
+  "title": "IBM API Connect",
+  "url": "https://www.ibm.com/products/api-connect",
+  "menuItems": [
+    {
+      "title": "Features",
+      "submenu": {
+        "columns": 1,
+        "menuSections": [
+          {
+            "span": 1,
+            "items": [
+              {
+                "title": "API development",
+                "url": "https://www.ibm.com/products/api-connect/api-development"
+              },
+              {
+                "title": "API gateway",
+                "url": "https://www.ibm.com/products/api-connect/api-gateway"
+              },
+              {
+                "title": "API manager",
+                "url": "https://www.ibm.com/products/api-connect/api-manager"
+              },
+              {
+                "title": "API testing",
+                "url": "https://www.ibm.com/products/api-connect/api-testing"
+              },
+              {
+                "title": "Developer portal",
+                "url": "https://www.ibm.com/products/api-connect/developer-portal"
+              },
+              {
+                "title": "Developer tooling",
+                "url": "https://www.ibm.com/products/api-connect/developer-tooling"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Use cases",
+      "submenu": {
+        "columns": 1,
+        "menuSections": [
+          {
+            "span": 1,
+            "items": [
+              {
+                "title": "Create APIs",
+                "url": "https://www.ibm.com/products/api-connect/create"
+              },
+              {
+                "title": "Manage APIs",
+                "url": "https://www.ibm.com/products/api-connect/manage"
+              },
+              {
+                "title": "Secure APIs",
+                "url": "https://www.ibm.com/products/api-connect/secure"
+              },
+              {
+                "title": "Socialize APIs",
+                "url": "https://www.ibm.com/products/api-connect/socialize"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Pricing",
+      "url": "https://www.ibm.com/products/api-connect/pricing"
+    },
+    {
+      "title": "Support & Resources",
+      "submenu": {
+        "columns": 1,
+        "menuSections": [
+          {
+            "span": 1,
+            "items": [
+              {
+                "title": "Overview",
+                "url": "https://www.ibm.com/products/api-connect/resources"
+              },
+              {
+                "title": "Blogs",
+                "url": "https://www.ibm.com/blog/?lang=en&cc=US&lnk=mhsrch&q=api+management"
+              },
+              {
+                "title": "Case studies",
+                "url": "https://www.ibm.com/products/api-connect/case-studies"
+              },
+              {
+                "title": "Community",
+                "url": "https://community.ibm.com/community/user/integration/communities/community-home?CommunityKey=2106cca0-a9f9-45c6-9b28-01a28f4ce947"
+              },
+              {
+                "title": "Documentation",
+                "url": "https://www.ibm.com/docs/api-connect/saas"
+              },
+              {
+                "title": "Support",
+                "url": "https://www.ibm.com/products/api-connect/support"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "actions": {
+    "login": {
+      "title": "Get 10% off your purchase",
+      "url": "https://www.ibm.com/marketplace/purchase/configuration/en/us/checkout?editionID=EIDNX5CU&apicpromoctaL1nav=true"
+    },
+    "cta": {
+      "title": "Try it free",
+      "url": "https://register.saas.ibm.com/apic/trial/aws"
+    }
+  }
+}
